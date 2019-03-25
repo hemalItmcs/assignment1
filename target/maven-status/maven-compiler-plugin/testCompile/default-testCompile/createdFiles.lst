@@ -1,0 +1,4 @@
+com\springboot\rest\SaveUserWithConflictStatusTest.class
+com\springboot\rest\SaveUserWithCreatedStatusTest.class
+com\springboot\rest\SaveUserWithForbiddenStatus.class
+com\springboot\rest\SpringBootRestDemoApplicationTests.class

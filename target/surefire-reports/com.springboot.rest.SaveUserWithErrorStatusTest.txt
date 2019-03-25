@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.springboot.rest.SaveUserWithErrorStatusTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.984 s <<< FAILURE! - in com.springboot.rest.SaveUserWithErrorStatusTest
+testSaveUserwithCreatedStatus(com.springboot.rest.SaveUserWithErrorStatusTest)  Time elapsed: 1.339 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at com.springboot.rest.SaveUserWithErrorStatusTest.testSaveUserwithCreatedStatus(SaveUserWithErrorStatusTest.java:43)
+Caused by: java.lang.NullPointerException
+	at com.springboot.rest.SaveUserWithErrorStatusTest.testSaveUserwithCreatedStatus(SaveUserWithErrorStatusTest.java:43)
+
